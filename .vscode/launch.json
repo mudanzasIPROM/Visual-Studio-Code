@@ -1,40 +1,65 @@
 {
-    "version": "0.2.0",
-    "configurations": [
+  "version": "0.2.0",
+  "configurations": [
     {
-        "name": "(gdb) Adjuntar",
-        "type": "cppdbg",
-        "request": "attach",
-        "program": "Escriba el nombre del programa; por ejemplo, ${workspaceFolder}/a.exe.",
-        "MIMode": "gdb",
-        "miDebuggerPath": "/path/to/gdb",
-        "setupCommands": [
-            {
-                "description": "Habilitar la impresión con sangría para gdb",
-                "text": "-enable-pretty-printing",
-                "ignoreFailures": true
-            },
-            {
-                "description": "Establecer tipo de desensamblado en Intel",
-                "text": "-gdb-set disassembly-flavor intel",
-                "ignoreFailures": true
-            }
-        ]
-    },
+      "name": "(gdb) Adjuntar",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "Escriba el nombre del programa; por ejemplo, ${workspaceFolder}/a.exe.",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/path/to/gdb",
+      "setupCommands": [
         {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "justMyCode": true
+          "description": "Habilitar la impresión con sangría para gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
         },
         {
-            "name": "Python: File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "justMyCode": true
+          "description": "Establecer tipo de desensamblado en Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
         }
-    ]
+      ]
+    },
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "justMyCode": true
+    },
+    {
+      "type": "node-terminal",
+      "name": "JavaScript Debug Terminal",
+      "request": "launch",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/user/Desktop/Visual Studio Code",
+      "program": "c:/Users/user/Desktop/Visual Studio Code/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
 }
