@@ -13,7 +13,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 class TestChromeSelenium(unittest.TestCase):
 
-    Self.driver = webdriver.Chrome(executable_path=r"C:\Windows\System32\WindowsPowerShell\7-preview\Modules\Selenium\3.0.1\assemblies\chromedriver.exe")
+    Self.driver = webdriver.Chrome(executable_path=r"C:/Users/user/Desktop/Visual Studio Code/TestChromeSelenium.py")
     def test_pagin_siguient_o_anterior(self):
      driver = self.driver      
      driver.get("https://www.google.es/")
