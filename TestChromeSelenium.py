@@ -1,5 +1,6 @@
 # tempCodeRunnerFile.py
 from typing import Self
+input()
 import unittest
 import time
 from selenium import webdriver
@@ -9,7 +10,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-... 
+
 class TestChromeSelenium(unittest.TestCase):
 
     Self.driver = webdriver.Chrome(executable_path=r"C:\Windows\System32\WindowsPowerShell\7-preview\Modules\Selenium\3.0.1\assemblies\chromedriver.exe")
