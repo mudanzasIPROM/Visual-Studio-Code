@@ -1,5 +1,6 @@
 # tempCodeRunnerFile
 from typing import Self
+input()
 import unittest
 import time
 from selenium import webdriver
