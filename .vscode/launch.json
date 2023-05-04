@@ -50,7 +50,7 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "c:/Users/user/Desktop/Visual Studio Code",
-      "program": "c:/Users/user/Desktop/Visual Studio Code/build/Debug/outDebug",
+      "program": "c:/Users/user/Desktop/Visual Studio Code/build/Release/outRelease",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
@@ -60,6 +60,30 @@
           "ignoreFailures": true
         }
       ]
+    },
+    {
+      "type": "node-terminal",
+      "name": "JavaScript Debug Terminal",
+      "request": "launch",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node-terminal",
+      "name": "JavaScript Debug Terminal",
+      "request": "launch",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node-terminal",
+      "name": "JavaScript Debug Terminal",
+      "request": "launch",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "node-terminal",
+      "name": "JavaScript Debug Terminal",
+      "request": "launch",
+      "cwd": "${workspaceFolder}"
     },
     {
       "type": "node-terminal",

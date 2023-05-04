@@ -33,6 +33,7 @@
     "jinja",
     "jsx-tags",
     "julia",
+    "juliamarkdown",
     "lldb.disassembly",
     "log",
     "lua",
