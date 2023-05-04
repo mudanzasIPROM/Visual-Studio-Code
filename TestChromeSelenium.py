@@ -5,15 +5,9 @@ import unittest
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-
 class TestChromeSelenium(unittest.TestCase):
 
-    Self.driver = webdriver.Chrome(executable_path=r"C:/Users/user/Desktop/Visual Studio Code/TestChromeSelenium.py")
+    Self.driver = webdriver.Chrome(executable_path=r"chromedriver.exe")
     def test_pagin_siguient_o_anterior(self):
      driver = self.driver      
      driver.get("https://www.google.es/")
