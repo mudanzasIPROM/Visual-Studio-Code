@@ -8,7 +8,6 @@ $ChromeDive=Start-SeChrome https://www.empresasde-mudanzas.com
 $ChromeDive=Start-SeChrome "https://www.empresasde-mudanzas.com/traslado-piano.html"
 sSleep -Seconds(1.50)
 $ChromeDive.quit()
-rapida
 $ChromeDive=Start-SeChrome https://www.transporte-de-pianos.com
 Start-Sleep -Seconds(1.50)
 $ChromeDive.quit()
