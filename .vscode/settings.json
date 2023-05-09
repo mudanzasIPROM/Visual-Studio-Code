@@ -27,7 +27,9 @@
     "dockerfile",
     "editorconfig",
     "excel",
+    "gemfile",
     "git-rebase",
+    "github-actions-workflow",
     "ini",
     "java-properties",
     "jinja",
@@ -100,5 +102,6 @@
   "C_Cpp_Runner.useAddressSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "compile-hero.disable-compile-files-on-did-save-code": false,
-  "python.analysis.typeCheckingMode": "basic"
+  "python.analysis.typeCheckingMode": "basic",
+  "cSpell.language": "en,lorem,en-US"
 }
