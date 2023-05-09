@@ -30,6 +30,7 @@
     "gemfile",
     "git-rebase",
     "github-actions-workflow",
+    "ignore",
     "ini",
     "java-properties",
     "jinja",
