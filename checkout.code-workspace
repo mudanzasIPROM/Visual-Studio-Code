@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "checkout"
+		},
+		{
+			"name": "[github/haikus-for-codespaces source archive]",
+			"uri": "codeql-zip-archive://1-140/c:\\Users\\user\\AppData\\Roaming\\Code\\User\\workspaceStorage\\af33fbe89a673acad215b862283b3911\\GitHub.vscode-codeql\\javascript\\codeql_db\\src.zip"
+		}
+	],
+	"settings": {
+		"compile-hero.disable-compile-files-on-did-save-code": false
+	}
+}
