@@ -1,11 +1,5 @@
 # py
-from typing import Self
-input()
-import unittest
-import time
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-class TestChromeSelenium(unittest.TestCase):
+import-module Selenium
 
     Self.driver = webdriver.Chrome(executable_path=r"C:\Program Files\PowerShell\7-preview\Modules\Selenium\3.0.1\assemblies\chromedriver.exe")
     def test_pagin_siguient_o_anterior(self):

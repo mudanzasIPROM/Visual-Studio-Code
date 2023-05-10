@@ -1,4 +1,4 @@
-describe("Grabación del 9/5/2023 a las 0:02:13", () => {
+describe("Grabación del 9/5/2023 a las 0:02:13", ()=> {
   it("tests Grabación del 9/5/2023 a las 0:02:13", async () => {
     await browser.setWindowSize(973, 920)
     await browser.url("chrome://new-tab-page/")
