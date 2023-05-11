@@ -1,45 +1,44 @@
-/* We've started Quokka for you automatically on this file.
- *
- * To open a new Quokka file:
- *   - Press `Ctrl K, J` to create a new JavaScript File
- *   - Press `Ctrl K, T` to create a new TypeScript File
- *   - Press `Ctrl K, L` to open an interactive sample from:
- *     https://github.com/wallabyjs/interactive-examples
- *
- * To start/restart Quokka on an existing file:
- *   - Press `Ctrl K, Q`
-*/
+/*_____________________________________________________________________________
+__________  DO YOU HAVE WHAT IT TAKES TO FIND QUOKKA PRO TREASURE?  ___________
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/______*/
 
-// See the output of console.log right next to your code
-const quokka = { isAwesome: true };
+// Welcome to Quokka Pro Treasure Hunt! It only takes a minute to complete,
+// and a very special surprise awaits those who can do it.
 
-console.log(quokka);
+// If you get stuck, here's some pointers:
+// Quick Module Install:  https://quokkajs.com/docs/#modules
+// Live Comments:         https://quokkajs.com/docs/#comments
+// Value Explorer:        https://quokkajs.com/docs/#value-explorer
 
-// See the value of a variable simply by typing its name
-quokka;
+// Good luck and enjoy!
 
-// Use sequence expression to compare objects
-const wallaby = { "is Quokka's BigBrother": true };
+// 1) Fix the error below and install the missing module for the current quokka
+//    file using the link in the Quokka output or in the line hover message
+//    or quick action.
 
-(quokka, wallaby)
+const chest = require('quokka-treasure-chest')
 
-// Gutter indicators show what code was executed (code coverage)
+// 2) So, you have found an old chest, there may be some treasure inside it.
+//    You need to pass a correct string key to the "open" function.
+//    The "open" function returns a clue about how to find the key.
+//    Add Quokka live comment at the end of the line to see the returned value:
+//    chest.open('paste_key_here') //?
 
-// Orange indicators means only part of the line was executed
-// because JavaScript stops processing after first false value
-console.log('partialCoverage', false && true);
-
-// Green indicators means that Quokka executed all statements
-// on a line of code
-if (false) {
-  // White indicators means that a line of code was never
-  // executed by Quokka
-  console.log('noCoverage', true);
-}
-
-// Red indicators show where an error occurred. The error message
-// is also shown beside the error
-throw new Error('Something went wrong');
-
-// There's a lot more Quokka can do! Visit our docs to learn more:
-// - https://quokkajs.com/docs/
+chest.open('paste_key_here')
