@@ -1,0 +1,12 @@
+2023-05-12 13:56:56.425 [info] El experimento \"pythonPromptNewFormatterExt\" está activo
+2023-05-12 13:56:56.425 [info] El experimento \"pythonPromptNewToolsExt\" está activo
+2023-05-12 13:56:56.432 [info] Test server listening.
+2023-05-12 13:56:56.436 [info] Ruta de acceso del intérprete de Python: ~\AppData\Local\Microsoft\WindowsApps\python3.11.exe
+2023-05-12 13:57:37.047 [info] Iniciando el servidor de lenguaje Pylance.
+2023-05-12 14:01:27.464 [info] El experimento \"pythonPromptNewFormatterExt\" está activo
+2023-05-12 14:01:27.467 [info] El experimento \"pythonPromptNewToolsExt\" está activo
+2023-05-12 14:01:27.473 [info] Ruta de acceso del intérprete de Python: ~\AppData\Local\Microsoft\WindowsApps\python3.11.exe
+2023-05-12 14:01:39.372 [info] Test server listening.
+2023-05-12 14:02:41.239 [info] Iniciando el servidor de lenguaje Pylance.
+2023-05-12 14:06:49.939 [info] > conda info --json
+2023-05-12 14:07:50.935 [info] > ~\AppData\Local\Microsoft\WindowsApps\python3.11.exe -I ~\.vscode\extensions\ms-python.python-2023.8.0\pythonFiles\get_output_via_markers.py ~\.vscode\extensions\ms-python.python-2023.8.0\pythonFiles\interpreterInfo.py

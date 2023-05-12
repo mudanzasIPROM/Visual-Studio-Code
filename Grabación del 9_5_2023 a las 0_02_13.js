@@ -1,5 +1,11 @@
-describe("Grabación del 9/5/2023 a las 0:02:13", ()=> {
-  it("tests Grabación del 9/5/2023 a las 0:02:13", async () => {
+import itertools
+from pydoc import describe
+
+new_func()
+def new_func():
+    return describe("Grabación del 9/5/2023 a las 0:02:13")
+
+new_func() => {
     await browser.setWindowSize(973, 920)
     await browser.url("chrome://new-tab-page/")
     await expect(browser).toHaveUrl("chrome://new-tab-page/")
@@ -26,7 +32,7 @@ describe("Grabación del 9/5/2023 a las 0:02:13", ()=> {
     )
     await browser.$("#realbox").click()
     await browser.switchToFrame(
-      await browser.$('iframe[src="chrome://new-tab-page/"]')
+      await browser.$('isframe[src="chrome://new-tab-page/"]')
     )
     await browser.$("#realbox").setValue("mudanza de pianos")
     await browser.switchToFrame(
