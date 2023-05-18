@@ -1,0 +1,220 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Selenium</S>
+      <S N="Version">4.0.0-preview3</S>
+      <S N="Type">Module</S>
+      <S N="Description">Web automation using the Selenium Web Driver</S>
+      <S N="Author">Adam Driscoll</S>
+      <S N="CompanyName">adamdriscoll</S>
+      <S N="Copyright">(c) 2020 Adam Driscoll. All rights reserved.</S>
+      <DT N="PublishedDate">2021-03-07T14:58:06+01:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2023-05-05T00:52:08.6192054+02:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://github.com/adamdriscoll/selenium-powershell/blob/master/LICENSE</URI>
+      <URI N="ProjectUri">https://github.com/adamdriscoll/selenium-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>selenium</S>
+          <S>automation</S>
+          <S>web</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Clear-SeAlert</S>
+                <S>Clear-SeSelectValue</S>
+                <S>ConvertTo-SeSelenium</S>
+                <S>Get-SeCookie</S>
+                <S>Get-SeDriver</S>
+                <S>Get-SeDriverTimeout</S>
+                <S>Get-SeElement</S>
+                <S>Get-SeElementAttribute</S>
+                <S>Get-SeElementCssValue</S>
+                <S>Get-SeFrame</S>
+                <S>Get-SeHtml</S>
+                <S>Get-SeInput</S>
+                <S>Get-SeKeys</S>
+                <S>Get-SeSelectValue</S>
+                <S>Get-SeUrl</S>
+                <S>Get-SeWindow</S>
+                <S>Invoke-SeClick</S>
+                <S>Invoke-SeJavascript</S>
+                <S>Invoke-SeKeys</S>
+                <S>Invoke-seMouseAction</S>
+                <S>New-SeDriverOptions</S>
+                <S>New-SeDriverService</S>
+                <S>New-SeScreenshot</S>
+                <S>New-SeWindow</S>
+                <S>Pop-SeUrl</S>
+                <S>Push-SeUrl</S>
+                <S>Remove-SeCookie</S>
+                <S>Remove-SeWindow</S>
+                <S>Save-SeScreenshot</S>
+                <S>SeShouldHave</S>
+                <S>Set-SeCookie</S>
+                <S>Set-SeDriverTimeout</S>
+                <S>Set-SeSelectValue</S>
+                <S>Set-SeUrl</S>
+                <S>Start-SeDriver</S>
+                <S>Start-SeRemote</S>
+                <S>Stop-SeDriver</S>
+                <S>Switch-SeDriver</S>
+                <S>Switch-SeFrame</S>
+                <S>Switch-SeWindow</S>
+                <S>Update-SeDriver</S>
+                <S>Wait-SeDriver</S>
+                <S>Wait-SeElement</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Clear-SeAlert</S>
+                <S>Clear-SeSelectValue</S>
+                <S>ConvertTo-SeSelenium</S>
+                <S>Get-SeCookie</S>
+                <S>Get-SeDriver</S>
+                <S>Get-SeDriverTimeout</S>
+                <S>Get-SeElement</S>
+                <S>Get-SeElementAttribute</S>
+                <S>Get-SeElementCssValue</S>
+                <S>Get-SeFrame</S>
+                <S>Get-SeHtml</S>
+                <S>Get-SeInput</S>
+                <S>Get-SeKeys</S>
+                <S>Get-SeSelectValue</S>
+                <S>Get-SeUrl</S>
+                <S>Get-SeWindow</S>
+                <S>Invoke-SeClick</S>
+                <S>Invoke-SeJavascript</S>
+                <S>Invoke-SeKeys</S>
+                <S>Invoke-seMouseAction</S>
+                <S>New-SeDriverOptions</S>
+                <S>New-SeDriverService</S>
+                <S>New-SeScreenshot</S>
+                <S>New-SeWindow</S>
+                <S>Pop-SeUrl</S>
+                <S>Push-SeUrl</S>
+                <S>Remove-SeCookie</S>
+                <S>Remove-SeWindow</S>
+                <S>Save-SeScreenshot</S>
+                <S>SeShouldHave</S>
+                <S>Set-SeCookie</S>
+                <S>Set-SeDriverTimeout</S>
+                <S>Set-SeSelectValue</S>
+                <S>Set-SeUrl</S>
+                <S>Start-SeDriver</S>
+                <S>Start-SeRemote</S>
+                <S>Stop-SeDriver</S>
+                <S>Switch-SeDriver</S>
+                <S>Switch-SeFrame</S>
+                <S>Switch-SeWindow</S>
+                <S>Update-SeDriver</S>
+                <S>Wait-SeDriver</S>
+                <S>Wait-SeElement</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">Updating WebDrivers for Selenium</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="9">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">(c) 2020 Adam Driscoll. All rights reserved.</S>
+          <S N="description">Web automation using the Selenium Web Driver</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="releaseNotes">Updating WebDrivers for Selenium</S>
+          <S N="isLatestVersion">False</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">4386</S>
+          <S N="downloadCount">104523</S>
+          <S N="packageSize">33542242</S>
+          <S N="published">07/03/2021 14:58:06 +01:00</S>
+          <S N="created">07/03/2021 14:58:06 +01:00</S>
+          <S N="lastUpdated">04/05/2023 18:50:25 +02:00</S>
+          <S N="tags">selenium automation web PSModule PSFunction_Clear-SeAlert PSCommand_Clear-SeAlert PSFunction_Clear-SeSelectValue PSCommand_Clear-SeSelectValue PSFunction_ConvertTo-SeSelenium PSCommand_ConvertTo-SeSelenium PSFunction_Get-SeCookie PSCommand_Get-SeCookie PSFunction_Get-SeDriver PSCommand_Get-SeDriver PSFunction_Get-SeDriverTimeout PSCommand_Get-SeDriverTimeout PSFunction_Get-SeElement PSCommand_Get-SeElement PSFunction_Get-SeElementAttribute PSCommand_Get-SeElementAttribute PSFunction_Get-SeElementCssValue PSCommand_Get-SeElementCssValue PSFunction_Get-SeFrame PSCommand_Get-SeFrame PSFunction_Get-SeHtml PSCommand_Get-SeHtml PSFunction_Get-SeInput PSCommand_Get-SeInput PSFunction_Get-SeKeys PSCommand_Get-SeKeys PSFunction_Get-SeSelectValue PSCommand_Get-SeSelectValue PSFunction_Get-SeUrl PSCommand_Get-SeUrl PSFunction_Get-SeWindow PSCommand_Get-SeWindow PSFunction_Invoke-SeClick PSCommand_Invoke-SeClick PSFunction_Invoke-SeJavascript PSCommand_Invoke-SeJavascript PSFunction_Invoke-SeKeys PSCommand_Invoke-SeKeys PSFunction_Invoke-seMouseAction PSCommand_Invoke-seMouseAction PSFunction_New-SeDriverOptions PSCommand_New-SeDriverOptions PSFunction_New-SeDriverService PSCommand_New-SeDriverService PSFunction_New-SeScreenshot PSCommand_New-SeScreenshot PSFunction_New-SeWindow PSCommand_New-SeWindow PSFunction_Pop-SeUrl PSCommand_Pop-SeUrl PSFunction_Push-SeUrl PSCommand_Push-SeUrl PSFunction_Remove-SeCookie PSCommand_Remove-SeCookie PSFunction_Remove-SeWindow PSCommand_Remove-SeWindow PSFunction_Save-SeScreenshot PSCommand_Save-SeScreenshot PSFunction_SeShouldHave PSCommand_SeShouldHave PSFunction_Set-SeCookie PSCommand_Set-SeCookie PSFunction_Set-SeDriverTimeout PSCommand_Set-SeDriverTimeout PSFunction_Set-SeSelectValue PSCommand_Set-SeSelectValue PSFunction_Set-SeUrl PSCommand_Set-SeUrl PSFunction_Start-SeDriver PSCommand_Start-SeDriver PSFunction_Start-SeRemote PSCommand_Start-SeRemote PSFunction_Stop-SeDriver PSCommand_Stop-SeDriver PSFunction_Switch-SeDriver PSCommand_Switch-SeDriver PSFunction_Switch-SeFrame PSCommand_Switch-SeFrame PSFunction_Switch-SeWindow PSCommand_Switch-SeWindow PSFunction_Update-SeDriver PSCommand_Update-SeDriver PSFunction_Wait-SeDriver PSCommand_Wait-SeDriver PSFunction_Wait-SeElement PSCommand_Wait-SeElement PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2023-05-04T18:50:25Z</S>
+          <S N="NormalizedVersion">4.0.0-preview3</S>
+          <S N="Authors">Adam Driscoll</S>
+          <S N="IsPrerelease">true</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Selenium.nuspec|SeleniumClasses.ps1|Selenium.psd1|ChangeLog.md|README.md|Selenium.psm1|Selenium.tests.ps1|Selenium-Binary-Updater.ps1|assemblies\WebDriver.Support.dll|assemblies\IEDriverServer.exe.sha256|assemblies\geckodriver.exe|assemblies\chromedriver.exe|assemblies\IEDriverServer.exe|assemblies\geckodriver.exe.sha256|assemblies\msedgedriver.exe|assemblies\WebDriver.dll|assemblies\chromedriver.exe.sha256|assemblies\WebDriver.dll.sha256|assemblies\WebDriver.Support.dll.sha256|assemblies\msedgedriver.exe.sha256|Examples\Example.side|Examples\test-seremote.ps1|Examples\comparison.ps1|Examples\Combined.tests.ps1|Examples\_TestDependencies.ps1|Examples\A-Simple-Google-Search.ps1|types\Selenium.types.ps1xml|formats\Selenium.format.ps1xml|en-US\Selenium-help.xml|assemblies\linux\chromedriver.sha256|assemblies\linux\chromedriver|assemblies\linux\geckodriver.sha256|assemblies\linux\geckodriver|assemblies\macos\chromedriver.sha256|assemblies\macos\chromedriver|assemblies\macos\geckodriver.sha256|assemblies\macos\geckodriver</S>
+          <S N="GUID">a3bdb8c3-c150-48a8-b56d-cd4d43f46a26</S>
+          <S N="CompanyName">Unknown</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\user\OneDrive - transporte-de-pianos.com (1)\Documentos\PowerShell\Modules\Selenium\4.0.0</S>
+    </MS>
+  </Obj>
+</Objs>
